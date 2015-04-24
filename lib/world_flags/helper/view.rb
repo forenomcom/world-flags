@@ -45,7 +45,7 @@ module WorldFlags
 				options = args.extract_options!
 				name = args.first.kind_of?(String) ? args.first : WorldFlags.label(code, options)				
 
-				label = WorldFlags::Helper::View::Util.label_for options
+				label = WorldFlags::Helper::View::Util.label_for name, options
 				title = WorldFlags::Helper::View::Util.title_for name, options
 
 				content_tag WorldFlags.flag_tag, label.html_safe, WorldFlags::Helper::View::Util.flag_options(code, title, name, options)

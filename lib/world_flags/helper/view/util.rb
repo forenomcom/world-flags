@@ -2,7 +2,7 @@ module WorldFlags
 	module Helper
 		module View
 			module Util
-				def self.label_for options = {}
+				def self.label_for name, options = {}
 					label = case options[:content]
 					when true 
 						name
