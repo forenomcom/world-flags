@@ -1,11 +1,11 @@
 .f16 {
 
     .flag{
-        background:url(<%= asset_path 'flags/flags16.png' %>) no-repeat;
+        background: image-url("flags/flags16.png") no-repeat;
     }
 
     .semi {
-        background:url(<%= asset_path 'flags/flags16_semi.png' %>) no-repeat;
+        background: image-url("flags/flags16_semi.png") no-repeat;
     }
 
     ._African_Union{background-position:0 -0px;}

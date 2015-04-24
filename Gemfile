@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 # gem "resourceful",  "~> 1.0.1"
 # gem "rubyzip",      ">= 0.9.6"
 
+gem 'sass-rails',   '>= 3.1.0'
 gem 'hashie',       '>= 1.2'
 gem 'i18n',         '>= 0.6'
 

@@ -1,10 +1,10 @@
 .f48 {
 
     .flag {
-        background:url(<%= asset_path 'flags/flags48.png' %>) no-repeat;        
+        background: image-url("flags/flags48.png") no-repeat;
     }
     .semi {
-        background:url(<%= asset_path 'flags/flags48_semi.png' %>) no-repeat;
+        background: image-url("flags/flags48_semi.png") no-repeat;
     }
 
     ._African_Union{background-position:0 -0px;}

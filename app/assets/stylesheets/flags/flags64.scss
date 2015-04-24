@@ -1,9 +1,11 @@
 .f64 {
 
-    .flag {background:url(<%= asset_path 'flags/flags64.png' %>) no-repeat;}
+    .flag {
+        background: image-url("flags/flags64.png") no-repeat;
+    }
 
     .semi {
-        background:url(<%= asset_path 'flags/flags64_semi.png' %>) no-repeat;
+        background: image-url("flags/flags64_semi.png") no-repeat;
     }
 
     ._African_Union{background-position:0 -0px;}
@@ -45,7 +47,7 @@
     .aw{background-position:0 -2240px;}
     .az{background-position:0 -2304px;}
     .ba{background-position:0 -2368px;}
-    .bb{background-position:0 -2432px;}    
+    .bb{background-position:0 -2432px;}
     .bd{background-position:0 -2496px;}
     .be{background-position:0 -2560px;}
     .bf{background-position:0 -2624px;}
@@ -166,7 +168,7 @@
     .mo{background-position:0 -9920px;}
     .mq{background-position:0 -9984px;}
     .mr{background-position:0 -10048px;}
-    .ms{background-position:0 -10112px;}    
+    .ms{background-position:0 -10112px;}
     .mt{background-position:0 -10176px;}
     .mu{background-position:0 -10240px;}
     .mv{background-position:0 -10304px;}
@@ -241,11 +243,11 @@
     .uz{background-position:0 -14720px;}
     .va{background-position:0 -14784px;}
     .vc{background-position:0 -14848px;}
-    .ve{background-position:0 -14912px;}    
+    .ve{background-position:0 -14912px;}
     .vg{background-position:0 -14976px;}
     .vi{background-position:0 -15040px;}
     .vn{background-position:0 -15104px;}
-    .vu{background-position:0 -15168px;}    
+    .vu{background-position:0 -15168px;}
     .ws{background-position:0 -15232px;}
     .ye{background-position:0 -15296px;}
     .za{background-position:0 -15360px;}
