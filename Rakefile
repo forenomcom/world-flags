@@ -15,12 +15,11 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "world-flags"
-  gem.homepage = "http://github.com/kristianmandrup/world-flags"
+  gem.homepage = "https://github.com/world-flags/world-flags"
   gem.license = "MIT"
   gem.summary = %Q{World flags as sprites}
   gem.description = %Q{Use world flag icons in your Rails app}
-  gem.email = "kmandrup@gmail.com"
-  gem.authors = ["Kristian Mandrup"]
+  gem.authors = ["Kristian Mandrup", "Jan-Joost Spanjers"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

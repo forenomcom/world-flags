@@ -1,3 +1,12 @@
+## 1.0.0
+
+With this release using the asset pipeline is required.
+
+- Source moved to https://github.com/world-flags/world-flags
+- Allow rendering single flags
+- Add runtime dependency on sass-rails
+- Support for Rails 4
+
 ## 0.2.0
 
 Lots of new features, including:
