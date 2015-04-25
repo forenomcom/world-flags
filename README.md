@@ -69,33 +69,38 @@ There is also support for semi-transparent flags. This can be used to fade certa
 
 Simply add or remove the "semi" class for the flag to adjust the brightness level (fx for selection/mouse over).
 
-## Rendering
-
-Flags will be rendered in HTML as:
-
-```html
-<pre>
-  <ul class="f32">
-  	<li class="flag ar selected" data-cc="ar" data-country_name="Argentina" data-language_name="Spanish" data-locale="ar">&nbsp;</li>
-...
-</ul>
-</pre>
-```
-
-The countries corresponding to the codes can be found at [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
-
 ## Use
 
-WorldFlags supports flag sizes in 16, 24, 32, 48 and 64 pixels (size).
+To render a single country flag in html, you can use:
+```html
+<i class="flag f16 ar"/>
+```
+where 'f16' refers to size and 'ar' can be replaced by any country code.
 
-You can also use built in helper methods:
+WorldFlags supports flag sizes in 16, 24, 32, 48 and 64 pixels (size).
+The countries corresponding to the codes can be found at [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+
+
+## Advanced use
+
+You can use built in helper methods to render lists of flags.
+Using these helper methods, the flags will be rendered in HTML as:
+
+ ```html
+<ul class="f32">
+    <li class="flag ar selected" data-cc="ar" data-country_name="Argentina" data-language_name="Spanish" data-locale="ar">&nbsp;</li>
+...
+</ul>
+```
+
+Example using the flags helper:
 
 ```haml
 = flag_list 16 do
 	= flags :ar, :gb, :selected => :gb
 ```
 
-Alternatively
+Alternatively, using the flag helper:
 
 ```haml
 = flag_list 32 do

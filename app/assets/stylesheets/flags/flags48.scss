@@ -1,256 +1,993 @@
 .f48 {
-
     .flag {
         background: image-url("flags/flags48.png") no-repeat;
     }
     .semi {
         background: image-url("flags/flags48_semi.png") no-repeat;
     }
+}
+.f48.flag {
+    background: image-url("flags/flags48.png") no-repeat;
+    display: inline-block;
+}
 
-    ._African_Union{background-position:0 -0px;}
-    ._Arab_League{background-position:0 -48px;}
-    ._ASEAN{background-position:0 -96px;}
-    ._CARICOM{background-position:0 -144px;}
-    ._CIS{background-position:0 -192px;}
-    ._Commonwealth{background-position:0 -240px;}
-    ._England{background-position:0 -288px;}
-    ._European_Union{background-position:0 -336px;}
-    ._Islamic_Conference{background-position:0 -384px;}
-    ._Kosovo{background-position:0 -432px;}
-    ._NATO{background-position:0 -480px;}
-    ._Northern_Cyprus{background-position:0 -528px;}
-    ._Northern_Ireland{background-position:0 -576px;}
-    ._Olympic_Movement{background-position:0 -624px;}
-    ._OPEC{background-position:0 -672px;}
-    ._Red_Cross{background-position:0 -720px;}
-    ._Scotland{background-position:0 -768px;}
-    ._Somaliland{background-position:0 -816px;}
-    ._Tibet{background-position:0 -864px;}
-    ._United_Nations{background-position:0 -912px;}
-    ._Wales{background-position:0 -960px;}
+.f48.flag.semi {
+    background: image-url("flags/flags48_semi.png") no-repeat;
+}
 
-    .ad{background-position:0 -1008px;}
-    .ae{background-position:0 -1056px;}
-    .af{background-position:0 -1104px;}
-    .ag{background-position:0 -1152px;}
-    .ai{background-position:0 -1200px;}
-    .al{background-position:0 -1248px;}
-    .am{background-position:0 -1296px;}
-    .an{background-position:0 -1344px;}
-    .ao{background-position:0 -1392px;}
-    .aq{background-position:0 -1440px;}
-    .ar{background-position:0 -1488px;}
-    .as{background-position:0 -1536px;}
-    .at{background-position:0 -1584px;}
-    .au{background-position:0 -1632px;}
-    .aw{background-position:0 -1680px;}
-    .az{background-position:0 -1728px;}
-    .ba{background-position:0 -1776px;}
-    .bb{background-position:0 -1824px;}
-    .bd{background-position:0 -1872px;}
-    .be{background-position:0 -1920px;}
-    .bf{background-position:0 -1968px;}
-    .bg{background-position:0 -2016px;}
-    .bh{background-position:0 -2064px;}
-    .bi{background-position:0 -2112px;}
-    .bj{background-position:0 -2160px;}
-    .bm{background-position:0 -2208px;}
-    .bn{background-position:0 -2256px;}
-    .bo{background-position:0 -2304px;}
-    .br{background-position:0 -2352px;}
-    .bs{background-position:0 -2400px;}
-    .bt{background-position:0 -2448px;}
-    .bw{background-position:0 -2496px;}
-    .by{background-position:0 -2544px;}
-    .bz{background-position:0 -2592px;}
-    .ca{background-position:0 -2640px;}
-    .cd{background-position:0 -2688px;}
-    .cf{background-position:0 -2736px;}
-    .cg{background-position:0 -2784px;}
-    .ch{background-position:0 -2832px;}
-    .ci{background-position:0 -2880px;}
-    .ck{background-position:0 -2928px;}
-    .cl{background-position:0 -2976px;}
-    .cm{background-position:0 -3024px;}
-    .cn{background-position:0 -3072px;}
-    .co{background-position:0 -3120px;}
-    .cr{background-position:0 -3168px;}
-    .cu{background-position:0 -3216px;}
-    .cv{background-position:0 -3264px;}
-    .cy{background-position:0 -3312px;}
-    .cz{background-position:0 -3360px;}
-    .de{background-position:0 -3408px;}
-    .dj{background-position:0 -3456px;}
-    .dk{background-position:0 -3504px;}
-    .dm{background-position:0 -3552px;}
-    .do{background-position:0 -3600px;}
-    .dz{background-position:0 -3648px;}
-    .ec{background-position:0 -3696px;}
-    .ee{background-position:0 -3744px;}
-    .eg{background-position:0 -3792px;}
-    .eh{background-position:0 -3840px;}
-    .er{background-position:0 -3888px;}
-    .es{background-position:0 -3936px;}
-    .et{background-position:0 -3984px;}
-    .fi{background-position:0 -4032px;}
-    .fj{background-position:0 -4080px;}
-    .fm{background-position:0 -4128px;}
-    .fo{background-position:0 -4176px;}
-    .fr{background-position:0 -4224px;}
-    .ga{background-position:0 -4272px;}
-    .gb{background-position:0 -4320px;}
-    .gd{background-position:0 -4368px;}
-    .ge{background-position:0 -4416px;}
-    .gg{background-position:0 -4464px;}
-    .gh{background-position:0 -4512px;}
-    .gi{background-position:0 -4560px;}
-    .gl{background-position:0 -4608px;}
-    .gm{background-position:0 -4656px;}
-    .gn{background-position:0 -4704px;}
-    .gp{background-position:0 -4752px;}
-    .gq{background-position:0 -4800px;}
-    .gr{background-position:0 -4848px;}
-    .gt{background-position:0 -4896px;}
-    .gu{background-position:0 -4944px;}
-    .gw{background-position:0 -4992px;}
-    .gy{background-position:0 -5040px;}
-    .hk{background-position:0 -5088px;}
-    .hn{background-position:0 -5136px;}
-    .hr{background-position:0 -5184px;}
-    .ht{background-position:0 -5232px;}
-    .hu{background-position:0 -5280px;}
-    .id{background-position:0 -5328px;}
-    .mc{background-position:0 -5328px;}
-    .ie{background-position:0 -5376px;}
-    .il{background-position:0 -5424px;}
-    .im{background-position:0 -5472px;}
-    .in{background-position:0 -5520px;}
-    .iq{background-position:0 -5568px;}
-    .ir{background-position:0 -5616px;}
-    .is{background-position:0 -5664px;}
-    .it{background-position:0 -5712px;}
-    .je{background-position:0 -5760px;}
-    .jm{background-position:0 -5808px;}
-    .jo{background-position:0 -5856px;}
-    .jp{background-position:0 -5904px;}
-    .ke{background-position:0 -5952px;}
-    .kg{background-position:0 -6000px;}
-    .kh{background-position:0 -6048px;}
-    .ki{background-position:0 -6096px;}
-    .km{background-position:0 -6144px;}
-    .kn{background-position:0 -6192px;}
-    .kp{background-position:0 -6240px;}
-    .kr{background-position:0 -6288px;}
-    .kw{background-position:0 -6336px;}
-    .ky{background-position:0 -6384px;}
-    .kz{background-position:0 -6432px;}
-    .la{background-position:0 -6480px;}
-    .lb{background-position:0 -6528px;}
-    .lc{background-position:0 -6576px;}
-    .li{background-position:0 -6624px;}
-    .lk{background-position:0 -6672px;}
-    .lr{background-position:0 -6720px;}
-    .ls{background-position:0 -6768px;}
-    .lt{background-position:0 -6816px;}
-    .lu{background-position:0 -6864px;}
-    .lv{background-position:0 -6912px;}
-    .ly{background-position:0 -6960px;}
-    .ma{background-position:0 -7008px;}
-    .md{background-position:0 -7056px;}
-    .me{background-position:0 -7104px;}
-    .mg{background-position:0 -7152px;}
-    .mh{background-position:0 -7200px;}
-    .mk{background-position:0 -7248px;}
-    .ml{background-position:0 -7296px;}
-    .mm{background-position:0 -7344px;}
-    .mn{background-position:0 -7392px;}
-    .mo{background-position:0 -7440px;}
-    .mq{background-position:0 -7488px;}
-    .mr{background-position:0 -7536px;}
-    .ms{background-position:0 -7584px;}
-    .mt{background-position:0 -7632px;}
-    .mu{background-position:0 -7680px;}
-    .mv{background-position:0 -7728px;}
-    .mw{background-position:0 -7776px;}
-    .mx{background-position:0 -7824px;}
-    .my{background-position:0 -7872px;}
-    .mz{background-position:0 -7920px;}
-    .na{background-position:0 -7968px;}
-    .nc{background-position:0 -8016px;}
-    .ne{background-position:0 -8064px;}
-    .ng{background-position:0 -8112px;}
-    .ni{background-position:0 -8160px;}
-    .nl{background-position:0 -8208px;}
-    .no{background-position:0 -8256px;}
-    .np{background-position:0 -8304px;}
-    .nr{background-position:0 -8352px;}
-    .nz{background-position:0 -8400px;}
-    .om{background-position:0 -8448px;}
-    .pa{background-position:0 -8496px;}
-    .pe{background-position:0 -8544px;}
-    .pf{background-position:0 -8592px;}
-    .pg{background-position:0 -8640px;}
-    .ph{background-position:0 -8688px;}
-    .pk{background-position:0 -8736px;}
-    .pl{background-position:0 -8784px;}
-    .pr{background-position:0 -8832px;}
-    .ps{background-position:0 -8880px;}
-    .pt{background-position:0 -8928px;}
-    .pw{background-position:0 -8976px;}
-    .py{background-position:0 -9024px;}
-    .qa{background-position:0 -9072px;}
-    .re{background-position:0 -9120px;}
-    .ro{background-position:0 -9168px;}
-    .rs{background-position:0 -9216px;}
-    .ru{background-position:0 -9264px;}
-    .rw{background-position:0 -9312px;}
-    .sa{background-position:0 -9360px;}
-    .sb{background-position:0 -9408px;}
-    .sc{background-position:0 -9456px;}
-    .sd{background-position:0 -9504px;}
-    .se{background-position:0 -9552px;}
-    .sg{background-position:0 -9600px;}
-    .si{background-position:0 -9648px;}
-    .sk{background-position:0 -9696px;}
-    .sl{background-position:0 -9744px;}
-    .sm{background-position:0 -9792px;}
-    .sn{background-position:0 -9840px;}
-    .so{background-position:0 -9888px;}
-    .sr{background-position:0 -9936px;}
-    .st{background-position:0 -9984px;}
-    .sv{background-position:0 -10032px;}
-    .sy{background-position:0 -10080px;}
-    .sz{background-position:0 -10128px;}
-    .tc{background-position:0 -10176px;}
-    .td{background-position:0 -10224px;}
-    .tg{background-position:0 -10272px;}
-    .th{background-position:0 -10320px;}
-    .tj{background-position:0 -10368px;}
-    .tl{background-position:0 -10416px;}
-    .tm{background-position:0 -10464px;}
-    .tn{background-position:0 -10512px;}
-    .to{background-position:0 -10560px;}
-    .tr{background-position:0 -10608px;}
-    .tt{background-position:0 -10656px;}
-    .tv{background-position:0 -10704px;}
-    .tw{background-position:0 -10752px;}
-    .tz{background-position:0 -10800px;}
-    .ua{background-position:0 -10848px;}
-    .ug{background-position:0 -10896px;}
-    .us{background-position:0 -10944px;}
-    .uy{background-position:0 -10992px;}
-    .uz{background-position:0 -11040px;}
-    .va{background-position:0 -11088px;}
-    .vc{background-position:0 -11136px;}
-    .ve{background-position:0 -11184px;}
-    .vg{background-position:0 -11232px;}
-    .vi{background-position:0 -11280px;}
-    .vn{background-position:0 -11328px;}
-    .vu{background-position:0 -11376px;}
-    .ws{background-position:0 -11424px;}
-    .ye{background-position:0 -11472px;}
-    .za{background-position:0 -11520px;}
-    .zm{background-position:0 -11568px;}
-    .zw{background-position:0 -11616px;}
+.f48.flag._African_Union, .f48 _African_Union {
+    background-position:0 -0px;
+}
 
-} // .f32
+.f48.flag._Arab_League, .f48 _Arab_League {
+    background-position:0 -48px;
+}
+
+.f48.flag._ASEAN, .f48 _ASEAN {
+    background-position:0 -96px;
+}
+
+.f48.flag._CARICOM, .f48 _CARICOM {
+    background-position:0 -144px;
+}
+
+.f48.flag._CIS, .f48 _CIS {
+    background-position:0 -192px;
+}
+
+.f48.flag._Commonwealth, .f48 _Commonwealth {
+    background-position:0 -240px;
+}
+
+.f48.flag._England, .f48 _England {
+    background-position:0 -288px;
+}
+
+.f48.flag._European_Union, .f48 _European_Union {
+    background-position:0 -336px;
+}
+
+.f48.flag._Islamic_Conference, .f48 _Islamic_Conference {
+    background-position:0 -384px;
+}
+
+.f48.flag._Kosovo, .f48 _Kosovo {
+    background-position:0 -432px;
+}
+
+.f48.flag._NATO, .f48 _NATO {
+    background-position:0 -480px;
+}
+
+.f48.flag._Northern_Cyprus, .f48 _Northern_Cyprus {
+    background-position:0 -528px;
+}
+
+.f48.flag._Northern_Ireland, .f48 _Northern_Ireland {
+    background-position:0 -576px;
+}
+
+.f48.flag._Olympic_Movement, .f48 _Olympic_Movement {
+    background-position:0 -624px;
+}
+
+.f48.flag._OPEC, .f48 _OPEC {
+    background-position:0 -672px;
+}
+
+.f48.flag._Red_Cross, .f48 _Red_Cross {
+    background-position:0 -720px;
+}
+
+.f48.flag._Scotland, .f48 _Scotland {
+    background-position:0 -768px;
+}
+
+.f48.flag._Somaliland, .f48 _Somaliland {
+    background-position:0 -816px;
+}
+
+.f48.flag._Tibet, .f48 _Tibet {
+    background-position:0 -864px;
+}
+
+.f48.flag._United_Nations, .f48 _United_Nations {
+    background-position:0 -912px;
+}
+
+.f48.flag._Wales, .f48 _Wales {
+    background-position:0 -960px;
+}
+
+
+.f48.flag.ad, .f48 ad {
+    background-position:0 -1008px;
+}
+
+.f48.flag.ae, .f48 ae {
+    background-position:0 -1056px;
+}
+
+.f48.flag.af, .f48 af {
+    background-position:0 -1104px;
+}
+
+.f48.flag.ag, .f48 ag {
+    background-position:0 -1152px;
+}
+
+.f48.flag.ai, .f48 ai {
+    background-position:0 -1200px;
+}
+
+.f48.flag.al, .f48 al {
+    background-position:0 -1248px;
+}
+
+.f48.flag.am, .f48 am {
+    background-position:0 -1296px;
+}
+
+.f48.flag.an, .f48 an {
+    background-position:0 -1344px;
+}
+
+.f48.flag.ao, .f48 ao {
+    background-position:0 -1392px;
+}
+
+.f48.flag.aq, .f48 aq {
+    background-position:0 -1440px;
+}
+
+.f48.flag.ar, .f48 ar {
+    background-position:0 -1488px;
+}
+
+.f48.flag.as, .f48 as {
+    background-position:0 -1536px;
+}
+
+.f48.flag.at, .f48 at {
+    background-position:0 -1584px;
+}
+
+.f48.flag.au, .f48 au {
+    background-position:0 -1632px;
+}
+
+.f48.flag.aw, .f48 aw {
+    background-position:0 -1680px;
+}
+
+.f48.flag.az, .f48 az {
+    background-position:0 -1728px;
+}
+
+.f48.flag.ba, .f48 ba {
+    background-position:0 -1776px;
+}
+
+.f48.flag.bb, .f48 bb {
+    background-position:0 -1824px;
+}
+
+.f48.flag.bd, .f48 bd {
+    background-position:0 -1872px;
+}
+
+.f48.flag.be, .f48 be {
+    background-position:0 -1920px;
+}
+
+.f48.flag.bf, .f48 bf {
+    background-position:0 -1968px;
+}
+
+.f48.flag.bg, .f48 bg {
+    background-position:0 -2016px;
+}
+
+.f48.flag.bh, .f48 bh {
+    background-position:0 -2064px;
+}
+
+.f48.flag.bi, .f48 bi {
+    background-position:0 -2112px;
+}
+
+.f48.flag.bj, .f48 bj {
+    background-position:0 -2160px;
+}
+
+.f48.flag.bm, .f48 bm {
+    background-position:0 -2208px;
+}
+
+.f48.flag.bn, .f48 bn {
+    background-position:0 -2256px;
+}
+
+.f48.flag.bo, .f48 bo {
+    background-position:0 -2304px;
+}
+
+.f48.flag.br, .f48 br {
+    background-position:0 -2352px;
+}
+
+.f48.flag.bs, .f48 bs {
+    background-position:0 -2400px;
+}
+
+.f48.flag.bt, .f48 bt {
+    background-position:0 -2448px;
+}
+
+.f48.flag.bw, .f48 bw {
+    background-position:0 -2496px;
+}
+
+.f48.flag.by, .f48 by {
+    background-position:0 -2544px;
+}
+
+.f48.flag.bz, .f48 bz {
+    background-position:0 -2592px;
+}
+
+.f48.flag.ca, .f48 ca {
+    background-position:0 -2640px;
+}
+
+.f48.flag.cd, .f48 cd {
+    background-position:0 -2688px;
+}
+
+.f48.flag.cf, .f48 cf {
+    background-position:0 -2736px;
+}
+
+.f48.flag.cg, .f48 cg {
+    background-position:0 -2784px;
+}
+
+.f48.flag.ch, .f48 ch {
+    background-position:0 -2832px;
+}
+
+.f48.flag.ci, .f48 ci {
+    background-position:0 -2880px;
+}
+
+.f48.flag.ck, .f48 ck {
+    background-position:0 -2928px;
+}
+
+.f48.flag.cl, .f48 cl {
+    background-position:0 -2976px;
+}
+
+.f48.flag.cm, .f48 cm {
+    background-position:0 -3024px;
+}
+
+.f48.flag.cn, .f48 cn {
+    background-position:0 -3072px;
+}
+
+.f48.flag.co, .f48 co {
+    background-position:0 -3120px;
+}
+
+.f48.flag.cr, .f48 cr {
+    background-position:0 -3168px;
+}
+
+.f48.flag.cu, .f48 cu {
+    background-position:0 -3216px;
+}
+
+.f48.flag.cv, .f48 cv {
+    background-position:0 -3264px;
+}
+
+.f48.flag.cy, .f48 cy {
+    background-position:0 -3312px;
+}
+
+.f48.flag.cz, .f48 cz {
+    background-position:0 -3360px;
+}
+
+.f48.flag.de, .f48 de {
+    background-position:0 -3408px;
+}
+
+.f48.flag.dj, .f48 dj {
+    background-position:0 -3456px;
+}
+
+.f48.flag.dk, .f48 dk {
+    background-position:0 -3504px;
+}
+
+.f48.flag.dm, .f48 dm {
+    background-position:0 -3552px;
+}
+
+.f48.flag.do, .f48 do {
+    background-position:0 -3600px;
+}
+
+.f48.flag.dz, .f48 dz {
+    background-position:0 -3648px;
+}
+
+.f48.flag.ec, .f48 ec {
+    background-position:0 -3696px;
+}
+
+.f48.flag.ee, .f48 ee {
+    background-position:0 -3744px;
+}
+
+.f48.flag.eg, .f48 eg {
+    background-position:0 -3792px;
+}
+
+.f48.flag.eh, .f48 eh {
+    background-position:0 -3840px;
+}
+
+.f48.flag.er, .f48 er {
+    background-position:0 -3888px;
+}
+
+.f48.flag.es, .f48 es {
+    background-position:0 -3936px;
+}
+
+.f48.flag.et, .f48 et {
+    background-position:0 -3984px;
+}
+
+.f48.flag.fi, .f48 fi {
+    background-position:0 -4032px;
+}
+
+.f48.flag.fj, .f48 fj {
+    background-position:0 -4080px;
+}
+
+.f48.flag.fm, .f48 fm {
+    background-position:0 -4128px;
+}
+
+.f48.flag.fo, .f48 fo {
+    background-position:0 -4176px;
+}
+
+.f48.flag.fr, .f48 fr {
+    background-position:0 -4224px;
+}
+
+.f48.flag.ga, .f48 ga {
+    background-position:0 -4272px;
+}
+
+.f48.flag.gb, .f48 gb {
+    background-position:0 -4320px;
+}
+
+.f48.flag.gd, .f48 gd {
+    background-position:0 -4368px;
+}
+
+.f48.flag.ge, .f48 ge {
+    background-position:0 -4416px;
+}
+
+.f48.flag.gg, .f48 gg {
+    background-position:0 -4464px;
+}
+
+.f48.flag.gh, .f48 gh {
+    background-position:0 -4512px;
+}
+
+.f48.flag.gi, .f48 gi {
+    background-position:0 -4560px;
+}
+
+.f48.flag.gl, .f48 gl {
+    background-position:0 -4608px;
+}
+
+.f48.flag.gm, .f48 gm {
+    background-position:0 -4656px;
+}
+
+.f48.flag.gn, .f48 gn {
+    background-position:0 -4704px;
+}
+
+.f48.flag.gp, .f48 gp {
+    background-position:0 -4752px;
+}
+
+.f48.flag.gq, .f48 gq {
+    background-position:0 -4800px;
+}
+
+.f48.flag.gr, .f48 gr {
+    background-position:0 -4848px;
+}
+
+.f48.flag.gt, .f48 gt {
+    background-position:0 -4896px;
+}
+
+.f48.flag.gu, .f48 gu {
+    background-position:0 -4944px;
+}
+
+.f48.flag.gw, .f48 gw {
+    background-position:0 -4992px;
+}
+
+.f48.flag.gy, .f48 gy {
+    background-position:0 -5040px;
+}
+
+.f48.flag.hk, .f48 hk {
+    background-position:0 -5088px;
+}
+
+.f48.flag.hn, .f48 hn {
+    background-position:0 -5136px;
+}
+
+.f48.flag.hr, .f48 hr {
+    background-position:0 -5184px;
+}
+
+.f48.flag.ht, .f48 ht {
+    background-position:0 -5232px;
+}
+
+.f48.flag.hu, .f48 hu {
+    background-position:0 -5280px;
+}
+
+.f48.flag.id, .f48 id {
+    background-position:0 -5328px;
+}
+
+.f48.flag.mc, .f48 mc {
+    background-position:0 -5328px;
+}
+
+.f48.flag.ie, .f48 ie {
+    background-position:0 -5376px;
+}
+
+.f48.flag.il, .f48 il {
+    background-position:0 -5424px;
+}
+
+.f48.flag.im, .f48 im {
+    background-position:0 -5472px;
+}
+
+.f48.flag.in, .f48 in {
+    background-position:0 -5520px;
+}
+
+.f48.flag.iq, .f48 iq {
+    background-position:0 -5568px;
+}
+
+.f48.flag.ir, .f48 ir {
+    background-position:0 -5616px;
+}
+
+.f48.flag.is, .f48 is {
+    background-position:0 -5664px;
+}
+
+.f48.flag.it, .f48 it {
+    background-position:0 -5712px;
+}
+
+.f48.flag.je, .f48 je {
+    background-position:0 -5760px;
+}
+
+.f48.flag.jm, .f48 jm {
+    background-position:0 -5808px;
+}
+
+.f48.flag.jo, .f48 jo {
+    background-position:0 -5856px;
+}
+
+.f48.flag.jp, .f48 jp {
+    background-position:0 -5904px;
+}
+
+.f48.flag.ke, .f48 ke {
+    background-position:0 -5952px;
+}
+
+.f48.flag.kg, .f48 kg {
+    background-position:0 -6000px;
+}
+
+.f48.flag.kh, .f48 kh {
+    background-position:0 -6048px;
+}
+
+.f48.flag.ki, .f48 ki {
+    background-position:0 -6096px;
+}
+
+.f48.flag.km, .f48 km {
+    background-position:0 -6144px;
+}
+
+.f48.flag.kn, .f48 kn {
+    background-position:0 -6192px;
+}
+
+.f48.flag.kp, .f48 kp {
+    background-position:0 -6240px;
+}
+
+.f48.flag.kr, .f48 kr {
+    background-position:0 -6288px;
+}
+
+.f48.flag.kw, .f48 kw {
+    background-position:0 -6336px;
+}
+
+.f48.flag.ky, .f48 ky {
+    background-position:0 -6384px;
+}
+
+.f48.flag.kz, .f48 kz {
+    background-position:0 -6432px;
+}
+
+.f48.flag.la, .f48 la {
+    background-position:0 -6480px;
+}
+
+.f48.flag.lb, .f48 lb {
+    background-position:0 -6528px;
+}
+
+.f48.flag.lc, .f48 lc {
+    background-position:0 -6576px;
+}
+
+.f48.flag.li, .f48 li {
+    background-position:0 -6624px;
+}
+
+.f48.flag.lk, .f48 lk {
+    background-position:0 -6672px;
+}
+
+.f48.flag.lr, .f48 lr {
+    background-position:0 -6720px;
+}
+
+.f48.flag.ls, .f48 ls {
+    background-position:0 -6768px;
+}
+
+.f48.flag.lt, .f48 lt {
+    background-position:0 -6816px;
+}
+
+.f48.flag.lu, .f48 lu {
+    background-position:0 -6864px;
+}
+
+.f48.flag.lv, .f48 lv {
+    background-position:0 -6912px;
+}
+
+.f48.flag.ly, .f48 ly {
+    background-position:0 -6960px;
+}
+
+.f48.flag.ma, .f48 ma {
+    background-position:0 -7008px;
+}
+
+.f48.flag.md, .f48 md {
+    background-position:0 -7056px;
+}
+
+.f48.flag.me, .f48 me {
+    background-position:0 -7104px;
+}
+
+.f48.flag.mg, .f48 mg {
+    background-position:0 -7152px;
+}
+
+.f48.flag.mh, .f48 mh {
+    background-position:0 -7200px;
+}
+
+.f48.flag.mk, .f48 mk {
+    background-position:0 -7248px;
+}
+
+.f48.flag.ml, .f48 ml {
+    background-position:0 -7296px;
+}
+
+.f48.flag.mm, .f48 mm {
+    background-position:0 -7344px;
+}
+
+.f48.flag.mn, .f48 mn {
+    background-position:0 -7392px;
+}
+
+.f48.flag.mo, .f48 mo {
+    background-position:0 -7440px;
+}
+
+.f48.flag.mq, .f48 mq {
+    background-position:0 -7488px;
+}
+
+.f48.flag.mr, .f48 mr {
+    background-position:0 -7536px;
+}
+
+.f48.flag.ms, .f48 ms {
+    background-position:0 -7584px;
+}
+
+.f48.flag.mt, .f48 mt {
+    background-position:0 -7632px;
+}
+
+.f48.flag.mu, .f48 mu {
+    background-position:0 -7680px;
+}
+
+.f48.flag.mv, .f48 mv {
+    background-position:0 -7728px;
+}
+
+.f48.flag.mw, .f48 mw {
+    background-position:0 -7776px;
+}
+
+.f48.flag.mx, .f48 mx {
+    background-position:0 -7824px;
+}
+
+.f48.flag.my, .f48 my {
+    background-position:0 -7872px;
+}
+
+.f48.flag.mz, .f48 mz {
+    background-position:0 -7920px;
+}
+
+.f48.flag.na, .f48 na {
+    background-position:0 -7968px;
+}
+
+.f48.flag.nc, .f48 nc {
+    background-position:0 -8016px;
+}
+
+.f48.flag.ne, .f48 ne {
+    background-position:0 -8064px;
+}
+
+.f48.flag.ng, .f48 ng {
+    background-position:0 -8112px;
+}
+
+.f48.flag.ni, .f48 ni {
+    background-position:0 -8160px;
+}
+
+.f48.flag.nl, .f48 nl {
+    background-position:0 -8208px;
+}
+
+.f48.flag.no, .f48 no {
+    background-position:0 -8256px;
+}
+
+.f48.flag.np, .f48 np {
+    background-position:0 -8304px;
+}
+
+.f48.flag.nr, .f48 nr {
+    background-position:0 -8352px;
+}
+
+.f48.flag.nz, .f48 nz {
+    background-position:0 -8400px;
+}
+
+.f48.flag.om, .f48 om {
+    background-position:0 -8448px;
+}
+
+.f48.flag.pa, .f48 pa {
+    background-position:0 -8496px;
+}
+
+.f48.flag.pe, .f48 pe {
+    background-position:0 -8544px;
+}
+
+.f48.flag.pf, .f48 pf {
+    background-position:0 -8592px;
+}
+
+.f48.flag.pg, .f48 pg {
+    background-position:0 -8640px;
+}
+
+.f48.flag.ph, .f48 ph {
+    background-position:0 -8688px;
+}
+
+.f48.flag.pk, .f48 pk {
+    background-position:0 -8736px;
+}
+
+.f48.flag.pl, .f48 pl {
+    background-position:0 -8784px;
+}
+
+.f48.flag.pr, .f48 pr {
+    background-position:0 -8832px;
+}
+
+.f48.flag.ps, .f48 ps {
+    background-position:0 -8880px;
+}
+
+.f48.flag.pt, .f48 pt {
+    background-position:0 -8928px;
+}
+
+.f48.flag.pw, .f48 pw {
+    background-position:0 -8976px;
+}
+
+.f48.flag.py, .f48 py {
+    background-position:0 -9024px;
+}
+
+.f48.flag.qa, .f48 qa {
+    background-position:0 -9072px;
+}
+
+.f48.flag.re, .f48 re {
+    background-position:0 -9120px;
+}
+
+.f48.flag.ro, .f48 ro {
+    background-position:0 -9168px;
+}
+
+.f48.flag.rs, .f48 rs {
+    background-position:0 -9216px;
+}
+
+.f48.flag.ru, .f48 ru {
+    background-position:0 -9264px;
+}
+
+.f48.flag.rw, .f48 rw {
+    background-position:0 -9312px;
+}
+
+.f48.flag.sa, .f48 sa {
+    background-position:0 -9360px;
+}
+
+.f48.flag.sb, .f48 sb {
+    background-position:0 -9408px;
+}
+
+.f48.flag.sc, .f48 sc {
+    background-position:0 -9456px;
+}
+
+.f48.flag.sd, .f48 sd {
+    background-position:0 -9504px;
+}
+
+.f48.flag.se, .f48 se {
+    background-position:0 -9552px;
+}
+
+.f48.flag.sg, .f48 sg {
+    background-position:0 -9600px;
+}
+
+.f48.flag.si, .f48 si {
+    background-position:0 -9648px;
+}
+
+.f48.flag.sk, .f48 sk {
+    background-position:0 -9696px;
+}
+
+.f48.flag.sl, .f48 sl {
+    background-position:0 -9744px;
+}
+
+.f48.flag.sm, .f48 sm {
+    background-position:0 -9792px;
+}
+
+.f48.flag.sn, .f48 sn {
+    background-position:0 -9840px;
+}
+
+.f48.flag.so, .f48 so {
+    background-position:0 -9888px;
+}
+
+.f48.flag.sr, .f48 sr {
+    background-position:0 -9936px;
+}
+
+.f48.flag.st, .f48 st {
+    background-position:0 -9984px;
+}
+
+.f48.flag.sv, .f48 sv {
+    background-position:0 -10032px;
+}
+
+.f48.flag.sy, .f48 sy {
+    background-position:0 -10080px;
+}
+
+.f48.flag.sz, .f48 sz {
+    background-position:0 -10128px;
+}
+
+.f48.flag.tc, .f48 tc {
+    background-position:0 -10176px;
+}
+
+.f48.flag.td, .f48 td {
+    background-position:0 -10224px;
+}
+
+.f48.flag.tg, .f48 tg {
+    background-position:0 -10272px;
+}
+
+.f48.flag.th, .f48 th {
+    background-position:0 -10320px;
+}
+
+.f48.flag.tj, .f48 tj {
+    background-position:0 -10368px;
+}
+
+.f48.flag.tl, .f48 tl {
+    background-position:0 -10416px;
+}
+
+.f48.flag.tm, .f48 tm {
+    background-position:0 -10464px;
+}
+
+.f48.flag.tn, .f48 tn {
+    background-position:0 -10512px;
+}
+
+.f48.flag.to, .f48 to {
+    background-position:0 -10560px;
+}
+
+.f48.flag.tr, .f48 tr {
+    background-position:0 -10608px;
+}
+
+.f48.flag.tt, .f48 tt {
+    background-position:0 -10656px;
+}
+
+.f48.flag.tv, .f48 tv {
+    background-position:0 -10704px;
+}
+
+.f48.flag.tw, .f48 tw {
+    background-position:0 -10752px;
+}
+
+.f48.flag.tz, .f48 tz {
+    background-position:0 -10800px;
+}
+
+.f48.flag.ua, .f48 ua {
+    background-position:0 -10848px;
+}
+
+.f48.flag.ug, .f48 ug {
+    background-position:0 -10896px;
+}
+
+.f48.flag.us, .f48 us {
+    background-position:0 -10944px;
+}
+
+.f48.flag.uy, .f48 uy {
+    background-position:0 -10992px;
+}
+
+.f48.flag.uz, .f48 uz {
+    background-position:0 -11040px;
+}
+
+.f48.flag.va, .f48 va {
+    background-position:0 -11088px;
+}
+
+.f48.flag.vc, .f48 vc {
+    background-position:0 -11136px;
+}
+
+.f48.flag.ve, .f48 ve {
+    background-position:0 -11184px;
+}
+
+.f48.flag.vg, .f48 vg {
+    background-position:0 -11232px;
+}
+
+.f48.flag.vi, .f48 vi {
+    background-position:0 -11280px;
+}
+
+.f48.flag.vn, .f48 vn {
+    background-position:0 -11328px;
+}
+
+.f48.flag.vu, .f48 vu {
+    background-position:0 -11376px;
+}
+
+.f48.flag.ws, .f48 ws {
+    background-position:0 -11424px;
+}
+
+.f48.flag.ye, .f48 ye {
+    background-position:0 -11472px;
+}
+
+.f48.flag.za, .f48 za {
+    background-position:0 -11520px;
+}
+
+.f48.flag.zm, .f48 zm {
+    background-position:0 -11568px;
+}
+
+.f48.flag.zw, .f48 zw {
+    background-position:0 -11616px;
+}
