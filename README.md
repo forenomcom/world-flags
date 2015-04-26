@@ -1,53 +1,12 @@
 # World Flags
 
-This engine/gem can be used with Rails 3+. WorldFlags includes css files for flags of the following pixel sizes:
+The world-flags gem includes css files for all the main country flags in the world in pixel size 16, 24, 32, 48 and 64.
 
-* 16
-* 24 
-* 32
-* 48
-* 64 
 
-The sprites contains all the main country flags in the world.
+## Requirements
 
-You can use the [sprite generator](http://spritegen.website-performance.org/) to generate sprites for other icons sets and follow the pattern for this gem.
+This gem can be used with Rails 3.1+ using the asset pipeline.
 
-You can also see the [pictos-icons](https://github.com/kristianmandrup/pictos-icons)  
-or [social_icons](https://github.com/kristianmandrup/social_icons) gems for other examples using this model.
-
-Also check out the [world-flag-packs](https://github.com/kristianmandrup/world-flag-packs) repo, that contains multiple flag packs ready for use with `world-flags.
-
-## Customizing Flag sprite size
-
-*Resize images:*
-
-Use ImageMagick to resize, using 32px version as base
-
-`convert flags32.png -resize 75% flags24.png`
-
-`convert flags32_semi.png -resize 75% flags24_semi.png`
-
-*Generate adsjusted css files:*
-
-The CSS files must have positioning adjusted to fit the new sprites:
-Use the resizing tool in `lib/world-flags/tools/resize_css.rb`
-Edit the last part where ResizeCss is initialized
-
-`resizer = ResizeCss.new 32, 24`
-
-The last argument (here 24) is the flag size used for calculating new positioning in the css files generated.
-
-The ResizeCSS initializer takes many additional options, including :auto-exec to auto convert the sprite using ImageMagick.
-
-`resizer = ResizeCss.new 32, 24, auto-exec: true`
-
-See the code for more details on how to adjust to fit your needs.
-
-Run the resizer
-
-`$ ruby resize_css.rb`
-
-TODO: refactor resize css tool into rake task or similar that takes arguments!
 
 ## Configuration
 
@@ -65,9 +24,6 @@ In your asset `application.css` manifest file:
 
 The `flags/basic` stylesheet sets up a basic css for use with borders around the flag images (to mark selected language). Use this css as inspiration and customize by overriding styles as needed.
 
-There is also support for semi-transparent flags. This can be used to fade certain flags while having the selected flag (or hovered over flag) in full brightness.
-
-Simply add or remove the "semi" class for the flag to adjust the brightness level (fx for selection/mouse over).
 
 ## Use
 
@@ -80,8 +36,15 @@ where 'f16' refers to size and 'ar' can be replaced by any country code.
 WorldFlags supports flag sizes in 16, 24, 32, 48 and 64 pixels (size).
 The countries corresponding to the codes can be found at [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 
+There is also support for semi-transparent flags. This can be used to fade
+certain flags while having the selected flag (or hovered over flag) in full
+brightness. Simply add or remove the "semi" class for the flag to adjust the
+brightness level (fx for selection/mouse over):
+```html
+<i class="flag f16 ar semi"/>
+```
 
-## Advanced use
+## Advanced use with Rails helpers
 
 You can use built in helper methods to render lists of flags.
 Using these helper methods, the flags will be rendered in HTML as:
@@ -124,7 +87,7 @@ Or using the #flag_code helper
 
 You can also include the :with_semi => true option in order to have flags not selected displayed with the 'semi' class (semi-bright image)
 
-For use with tooltips or similar js plguins, it can be useful to set the <li> title attribute:
+For use with tooltips or similar js plguins, it can be useful to set the title attribute:
 
 ```haml
 = flag_list 32 do
@@ -137,7 +100,13 @@ The flag_title will render the following list item:
 <li class="flag ar" lang="ar" title="Argentina">&nbsp;</li>
 ```
 
-Note: The `&nbsp; is needed in order for the background (flag icon) to have something to be displayed against.
+Note: The '&amp;nbsp;' is needed in order for the background (flag icon) to have something to be displayed against.
+
+To get content rendered,
+
+```haml
+= flags :ar, :br, :gb, :content => true
+```
 
 The :title and :content can also be set to a string which is then displayed
 
@@ -151,15 +120,9 @@ or using the locale mapping...
 = flag :ar, :title => 'Argentina country'
 ```
 
-To get content rendered for the <li>
-
-```haml
-	= flags :ar, :br, :gb, :content => true
-```
-
 Note: There is also a #flag_selected? helper, which is (and/or can be) used to determine if the flag to be drawn should have the "selected" class set)
 
-## Configuration
+### Configuration
 
 To disable use of country- and language name data attributes in output:
 
@@ -168,7 +131,7 @@ WorldFlags.country_name_disable!
 WorldFlags.language_name_disable!
 ```
 
-## Customizing output
+### Customizing output
 
 You can customize the output by the flag view helper methods:
 
@@ -180,7 +143,7 @@ WorldFlags.flag_text = ''
 
 To do more customization, look at the `world_flags/helper/view/util.rb` file.
 
-## Using localization
+### Using localization
 
 You can specify whether to look up labels for the flags for either language or country and for which locale to look up the labels (see Configuring localization)
 
@@ -289,6 +252,49 @@ The `basic.css` file in the `vendor/assets/stylesheets/flags` folder of this rep
 
  /* and so on ... */
 ```
+
+## Sprites
+
+The sprites contains all the main country flags in the world.
+
+You can use the [sprite generator](http://spritegen.website-performance.org/) to generate sprites for other icons sets and follow the pattern for this gem.
+
+You can also see the [pictos-icons](https://github.com/kristianmandrup/pictos-icons)  
+or [social_icons](https://github.com/kristianmandrup/social_icons) gems for other examples using this model.
+
+Also check out the [world-flag-packs](https://github.com/kristianmandrup/world-flag-packs) repo, that contains multiple flag packs ready for use with `world-flags.
+
+## Customizing Flag sprite size
+
+*Resize images:*
+
+Use ImageMagick to resize, using 32px version as base
+
+`convert flags32.png -resize 75% flags24.png`
+
+`convert flags32_semi.png -resize 75% flags24_semi.png`
+
+*Generate adsjusted css files:*
+
+The CSS files must have positioning adjusted to fit the new sprites:
+Use the resizing tool in `lib/world-flags/tools/resize_css.rb`
+Edit the last part where ResizeCss is initialized
+
+`resizer = ResizeCss.new 32, 24`
+
+The last argument (here 24) is the flag size used for calculating new positioning in the css files generated.
+
+The ResizeCSS initializer takes many additional options, including :auto-exec to auto convert the sprite using ImageMagick.
+
+`resizer = ResizeCss.new 32, 24, auto-exec: true`
+
+See the code for more details on how to adjust to fit your needs.
+
+Run the resizer
+
+`$ ruby resize_css.rb`
+
+TODO: refactor resize css tool into rake task or similar that takes arguments!
 
 ## TODO for version 1.0
 
