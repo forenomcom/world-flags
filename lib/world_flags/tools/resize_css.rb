@@ -83,16 +83,16 @@ class ResizeCss
     @size_prefix ||= 'f'
   end
 
-  def vendor_assets_path
-    "../../../vendor/assets/"
+  def app_assets_path
+    "../../../app/assets/"
   end
 
   def images_dir
-    @images_dir ||= File.join(vendor_assets_path, 'images')
+    @images_dir ||= File.join(app_assets_path, 'images')
   end
 
   def stylesheets_dir
-    @stylesheets_dir ||= File.join(vendor_assets_path, 'stylesheets')
+    @stylesheets_dir ||= File.join(app_assets_path, 'stylesheets')
   end
 
   def stylesheets_folder

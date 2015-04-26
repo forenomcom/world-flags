@@ -29,7 +29,7 @@ module WorldFlags
       end
 
       def asset_src_dir folder
-        File.expand_path "../../../vendor/assets/#{folder}"
+        File.expand_path "../../../app/assets/#{folder}"
       end
 
       def javascripts_dir
